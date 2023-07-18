@@ -2,3 +2,4 @@ openpyxl==3.1.2
 pandas==2.0.3
 plotly==5.15.0
 streamlit==1.24.1
+fsspec==2023.6.0

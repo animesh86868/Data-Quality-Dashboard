@@ -23,7 +23,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e
     unsafe_allow_html=True
 )
 
-data = pd.read_excel("C:/Users/CZ0202/OneDrive - cozentus.com/tasks/DataQualityTeam/Tracker.xlsx")
+data = pd.read_excel("C:/Users/CZ0202/Tracker.xlsx")
 data['Issue raised date'] = pd.to_datetime(data['Issue raised date'])
 
 #creating image sidebar
